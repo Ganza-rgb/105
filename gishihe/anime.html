@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  
+<head>
+    <meta charset="utf-8">
+    <title>Shake Button on Hover</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+  
+        div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+  
+        #btn {
+            text-align: center;
+            height: 60px;
+            width: 200px;
+            display: block;
+            font-size: 1.5em;
+            background: #68E73C;
+        }
+  
+        #btn:hover {
+            animation: effect 59s infinite;
+        }
+  
+        @keyframes effect {
+            0% {
+                transform: translateX(0px) rotate(0deg);
+            }
+  
+            20% {
+                transform: translateX(-4px) rotate(-4deg);
+            }
+  
+            40% {
+                transform: translateX(-2px) rotate(-2deg);
+            }
+  
+            60% {
+                transform: translateX(4px) rotate(4deg);
+            }
+  
+            80% {
+                transform: translateX(2px) rotate(2deg);
+            }
+  
+            100% {
+                transform: translateX(0px) rotate(0deg);
+            }
+        }
+    </style>
+</head>
+  
+<body>
+    <div>
+        <button id="btn">Button</button>
+    </div>
+</body>
+  
+</html>

@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+<link rel="stylesheet"href="all.css">
+<title>gishihe/tss</title>
+</head>
+<body bgcolor="skyblue"link="white"alink="white"vlink="white">
+<h2 align="center"style="font-family:
+times; color: white; font-size: 40px">
+<pre>GS GISHIHE/TSS</pre></h2>
+<form align="center" action="https://www.google.com/search"method="get"class="search">
+<input type="text"placeholder="Search...">
+<button type="button">
+<img src="i.png"width="15px">
+</button>
+</form>
+
+<br><br>
+</body>
